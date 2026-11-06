@@ -1,0 +1,19 @@
+# Dependencies - never upload node_modules to GitHub
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Environment & logs
+.env
+.env.*
+*.local
+*.log
+npm-debug.log*
+
+# Editor / OS files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
